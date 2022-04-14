@@ -1,7 +1,7 @@
-== build docker
+== build docker environment
 docker build buildenv -t myos-buildenv
 
-== enter docker
+== enter docker build environment
 docker run --rm -it -v "%cd%":/root/env myos-buildenv
 
 == build
